@@ -1,5 +1,9 @@
 # herdrbot
 
+[English](README.md) · [한국어](README.ko.md) · [日本語](README.ja.md) · [繁體中文](README.zh-TW.md)
+
+[![Herdrbot intro video (click for the mp4)](docs/media/herdrbot-intro.gif)](docs/media/herdrbot-intro.mp4)
+
 The engine for the **Herdrbot** Grok Bot — the scripts and config examples that sit
 behind Herdrbot's skills. Skill prose lives in the bot template; anything executable lives here.
 
