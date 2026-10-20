@@ -2,7 +2,7 @@
 
 [English](README.md) · [한국어](README.ko.md) · [日本語](README.ja.md) · [繁體中文](README.zh-TW.md)
 
-[![Herdrbot 紹介動画（クリックで mp4）](docs/media/herdrbot-intro.gif)](https://github.com/devicki/herdrbot/raw/main/docs/media/herdrbot-intro.mp4)
+https://github.com/user-attachments/assets/28e01ed1-a5e3-4248-8aca-34084274f2cc
 
 ## Herdrbot とは？
 
