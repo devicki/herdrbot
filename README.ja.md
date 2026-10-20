@@ -2,7 +2,7 @@
 
 [English](README.md) · [한국어](README.ko.md) · [日本語](README.ja.md) · [繁體中文](README.zh-TW.md)
 
-[![Herdrbot 紹介動画（クリックで mp4）](docs/media/herdrbot-intro.gif)](docs/media/herdrbot-intro.mp4)
+[![Herdrbot 紹介動画（クリックで mp4）](docs/media/herdrbot-intro.gif)](https://github.com/devicki/herdrbot/raw/main/docs/media/herdrbot-intro.mp4)
 
 ## Herdrbot とは？
 
@@ -16,6 +16,8 @@ Herdrbot は、自分のマシン上の [Herdr](https://herdr.dev) で動く AI 
 - [away-signal プラグイン](https://github.com/devicki/herdr-away-signal)とこのリポジトリの watch ゲートにより、モデル実行のコストを抑えつつ即座に反応します。
 
 このリポジトリはそのエンジン、つまりボットのスキルが使うスクリプトです。
+
+## エンジン
 
 **Herdrbot** Grok Bot のエンジンです。Herdrbot のスキルの裏で動くスクリプトと設定例をまとめています。
 スキルの説明文はボットテンプレートに、実行されるものはすべてこのリポジトリにあります。

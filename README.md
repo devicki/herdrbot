@@ -2,7 +2,7 @@
 
 [English](README.md) · [한국어](README.ko.md) · [日本語](README.ja.md) · [繁體中文](README.zh-TW.md)
 
-[![Herdrbot intro video (click for the mp4)](docs/media/herdrbot-intro.gif)](docs/media/herdrbot-intro.mp4)
+[![Herdrbot intro video (click for the mp4)](docs/media/herdrbot-intro.gif)](https://github.com/devicki/herdrbot/raw/main/docs/media/herdrbot-intro.mp4)
 
 ## What is Herdrbot?
 
@@ -16,6 +16,8 @@ Herdrbot is a Grok Bot that acts as a foreman for AI coding agents (Claude Code,
 - The [away-signal plugin](https://github.com/devicki/herdr-away-signal) and this repo's watch gate let it react instantly while keeping model runs cheap.
 
 This repo is its engine: the scripts the bot's skills use.
+
+## The engine
 
 The engine for the **Herdrbot** Grok Bot — the scripts and config examples that sit
 behind Herdrbot's skills. Skill prose lives in the bot template; anything executable lives here.

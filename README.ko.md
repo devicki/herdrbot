@@ -2,7 +2,7 @@
 
 [English](README.md) · [한국어](README.ko.md) · [日本語](README.ja.md) · [繁體中文](README.zh-TW.md)
 
-[![Herdrbot 소개 영상 (클릭하면 mp4)](docs/media/herdrbot-intro.gif)](docs/media/herdrbot-intro.mp4)
+[![Herdrbot 소개 영상 (클릭하면 mp4)](docs/media/herdrbot-intro.gif)](https://github.com/devicki/herdrbot/raw/main/docs/media/herdrbot-intro.mp4)
 
 ## Herdrbot이란?
 
@@ -16,6 +16,8 @@ Herdrbot은 내 머신의 [Herdr](https://herdr.dev)에서 돌아가는 AI 코�
 - [away-signal 플러그인](https://github.com/devicki/herdr-away-signal)과 이 레포의 watch 게이트 덕분에 모델 실행 비용은 낮게 유지하면서 즉시 반응합니다.
 
 이 레포는 그 엔진, 즉 봇의 스킬이 쓰는 스크립트입니다.
+
+## 엔진
 
 **Herdrbot** Grok Bot의 엔진입니다. Herdrbot 스킬 뒤에서 동작하는 스크립트와 설정 예시를 담고 있어요.
 스킬 설명은 봇 템플릿에, 실행되는 것은 모두 이 레포에 있습니다.

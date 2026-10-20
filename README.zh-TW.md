@@ -2,7 +2,7 @@
 
 [English](README.md) · [한국어](README.ko.md) · [日本語](README.ja.md) · [繁體中文](README.zh-TW.md)
 
-[![Herdrbot 介紹影片（點擊觀看 mp4）](docs/media/herdrbot-intro.gif)](docs/media/herdrbot-intro.mp4)
+[![Herdrbot 介紹影片（點擊觀看 mp4）](docs/media/herdrbot-intro.gif)](https://github.com/devicki/herdrbot/raw/main/docs/media/herdrbot-intro.mp4)
 
 ## Herdrbot 是什麼？
 
@@ -16,6 +16,8 @@ Herdrbot 是一個 Grok Bot，擔任在你機器上 [Herdr](https://herdr.dev) �
 - [away-signal 外掛](https://github.com/devicki/herdr-away-signal)與本儲存庫的 watch 閘道讓它能即時反應，同時壓低模型執行成本。
 
 本儲存庫是它的引擎：機器人技能所使用的腳本。
+
+## 引擎
 
 **Herdrbot** Grok Bot 的引擎：存放 Herdrbot 技能背後使用的腳本與設定範例。
 技能說明文字放在機器人範本中；所有可執行的東西都放在這裡。
