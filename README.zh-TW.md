@@ -4,6 +4,19 @@
 
 [![Herdrbot 介紹影片（點擊觀看 mp4）](docs/media/herdrbot-intro.gif)](docs/media/herdrbot-intro.mp4)
 
+## Herdrbot 是什麼？
+
+Herdrbot 是一個 Grok Bot，擔任在你機器上 [Herdr](https://herdr.dev) 中執行的 AI 程式代理（Claude Code、Codex 等）的工頭。
+
+- 告訴它要在哪裡建置或修正什麼，它會啟動一個代理（名為 `hb-...`）、交付任務、監看進度並帶回結果。
+- 它會把卡住的核准問題轉給你（絕不自行回答權限對話框），並回報完成的工作。
+- 可選擇讓它繼續執行代理提出的安全後續步驟（測試、文件、commit；push/tag 僅在啟用時）。預設關閉。
+- 合併、部署、強制推送與刪除一律需要你核准。你自己啟動的代理仍歸你管。
+- 它會發送早晨摘要，並每週檢查 Herdr 更新。
+- [away-signal 外掛](https://github.com/devicki/herdr-away-signal)與本儲存庫的 watch 閘道讓它能即時反應，同時壓低模型執行成本。
+
+本儲存庫是它的引擎：機器人技能所使用的腳本。
+
 **Herdrbot** Grok Bot 的引擎：存放 Herdrbot 技能背後使用的腳本與設定範例。
 技能說明文字放在機器人範本中；所有可執行的東西都放在這裡。
 

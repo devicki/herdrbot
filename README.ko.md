@@ -4,6 +4,19 @@
 
 [![Herdrbot 소개 영상 (클릭하면 mp4)](docs/media/herdrbot-intro.gif)](docs/media/herdrbot-intro.mp4)
 
+## Herdrbot이란?
+
+Herdrbot은 내 머신의 [Herdr](https://herdr.dev)에서 돌아가는 AI 코딩 에이전트(Claude Code, Codex 등)의 작업반장 역할을 하는 Grok Bot입니다.
+
+- 무엇을 어디서 만들거나 고칠지 말하면, 에이전트(`hb-...` 이름)를 띄워 작업을 맡기고, 지켜보다가 결과를 가져옵니다.
+- 막힌 승인 질문은 나에게 전달하고(권한 대화상자에 스스로 답하지 않음), 끝난 작업을 보고합니다.
+- 선택적으로 에이전트가 제안한 안전한 다음 단계(테스트, 문서, 커밋; push/tag는 켰을 때만)를 이어서 진행합니다. 기본값은 꺼짐.
+- 머지, 배포, 강제 푸시, 삭제는 항상 내 승인이 필요합니다. 내가 직접 띄운 에이전트는 내 것으로 남습니다.
+- 아침 요약을 보내고, 매주 Herdr 업데이트를 확인합니다.
+- [away-signal 플러그인](https://github.com/devicki/herdr-away-signal)과 이 레포의 watch 게이트 덕분에 모델 실행 비용은 낮게 유지하면서 즉시 반응합니다.
+
+이 레포는 그 엔진, 즉 봇의 스킬이 쓰는 스크립트입니다.
+
 **Herdrbot** Grok Bot의 엔진입니다. Herdrbot 스킬 뒤에서 동작하는 스크립트와 설정 예시를 담고 있어요.
 스킬 설명은 봇 템플릿에, 실행되는 것은 모두 이 레포에 있습니다.
 
