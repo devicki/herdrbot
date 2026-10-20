@@ -1,0 +1,17 @@
+{
+  "language": "en",
+  "machines": [
+    {"label": "laptop", "ssh_alias": "laptop", "agent_kinds": ["claude", "codex"]},
+    {"label": "server", "ssh_alias": "server", "agent_kinds": ["claude"]}
+  ],
+  "default_machine": "laptop",
+  "default_kind": "claude",
+  "watch": true,
+  "morning_summary": "09:00",
+  "away_flag_path": "~/.local/state/herdr/plugins/devicki.away-signal/away",
+  "continuation": {
+    "enabled": false,
+    "steps": ["tests", "docs", "commit"],
+    "repos": "none"
+  }
+}

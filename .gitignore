@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+gate.conf
+config.json
+*.log
+*.pid
+gate_snapshot.json

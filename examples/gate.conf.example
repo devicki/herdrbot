@@ -1,0 +1,6 @@
+# Herdrbot watch gate config. Copy to ~/.herdrbot/gate.conf and run: chmod 600 ~/.herdrbot/gate.conf
+# url: your Herdrbot "Herdr signal" webhook URL. key: its webhook key (sent as a Bearer token, never logged).
+url = https://example.invalid/your-herdr-signal-webhook
+key = REPLACE_WITH_WEBHOOK_KEY
+# seconds between polls
+interval = 300
